@@ -1,13 +1,13 @@
 const http = require('http');
 
 // === CONFIGURATION ===
-const VPS_HOST = '188.213.28.174';                      // IP de ton VPS
+const VPS_HOST = '167.233.139.225';                      // IP de ton VPS
 const VPS_PORT = 80;                                    // Port HTTP du VPS
-const UUID = '00447462-c455-475b-a0b9-680f70dfeb5d';    // Ton UUID
+const UUID = '72748b14-227f-4f87-8451-53793de17cf3';    // Ton UUID
 const XHTTP_PATH = '/';
 const XHTTP_MODE = 'auto';
 const XHTTP_PADDING = '100-1000';
-const HOST_HEADER = 'ultrategateworld.benbilal237free.xyz';
+const HOST_HEADER = 'test.newdevs.uk';
 const PORT = process.env.PORT || 8080;
 const FP = 'chrome';
 const ALPN = ['h2', 'http/1.1'];
