@@ -13,7 +13,7 @@ const FP = 'chrome';
 const ALPN = ['h2', 'http/1.1'];
 
 // ⚠️ CORRECTION : suppression du \n en fin de chaîne
-const CLOUD_RUN_DOMAIN = process.env.CLOUD_RUN_DOMAIN || 'moustapha-824656167733.us-central1.run.app';
+const CLOUD_RUN_DOMAIN = process.env.CLOUD_RUN_DOMAIN || 'gcp-v2ray-461610000741.europe-west2.run.app';
 
 // === GÉNÉRATEUR DE LIEN VLESS ===
 function generateVlessLink(host) {
